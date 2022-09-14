@@ -10,8 +10,7 @@ public class Button : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(GM.Countext.text.Substring(0, GM.Countext.text.Length - 3 -(GM.count.ToString().Length)));
-        Debug.Log(GM.Countext.text.Substring(0, GM.Countext.text.Length - 4).Length);
+        
     }
 
     // Update is called once per frame
